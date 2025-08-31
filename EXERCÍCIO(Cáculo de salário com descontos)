@@ -1,0 +1,15 @@
+#Solicite ao usuário algumas informações
+valor_hora=float(input('Digite quanto você recebe por hora: '))
+qt_horas_mes=int(input('Digite a quantidade de horas que você trabalhou no mês: '))
+#Calcule
+sl_bruto= valor_hora*qt_horas_mes
+Dsc_IR= sl_bruto*0.11
+Dsc_INSS= sl_bruto*0.08
+Dsc_SD= sl_bruto*0.05
+sl_lqd= sl_bruto-Dsc_IR-Dsc_INSS-Dsc_SD
+#Resultado dos cálculos
+print(f'Salário bruto é= R${sl_bruto:.2f}')
+print(f'IR(11%) é= R${Dsc_IR:.2f}')
+print(f'INSS(8%) é= R${Dsc_INSS:.2f}')
+print(f'Sindicato(5%) é= R${Dsc_SD:.2f}')
+print(f'Salário Líquido é= R${sl_lqd:.2f}')
