@@ -1,0 +1,2 @@
+cores = ["azul", "verde", "vermelho", "amarelo"]
+print(cores[1],'e',cores[3])
