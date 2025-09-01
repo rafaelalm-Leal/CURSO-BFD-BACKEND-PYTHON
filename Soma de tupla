@@ -1,0 +1,2 @@
+t = (5, 10, 15, 20)
+print('A soma dos números da tupla é',sum(t))
