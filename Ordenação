@@ -1,0 +1,3 @@
+lista=[8,4,11,7,13]
+lista.sort()
+print(lista)
